@@ -35,3 +35,16 @@ def uncross(request, list_id):
     itemUnCross.completed = False
     itemUnCross.save()
     return redirect('homepage')
+
+def edit(request, list_id):
+    if request.method == 'POST':
+        item = List.objects.get(pk=list_id)
+        form = ListForm(request.POST or None, instance=item)
+        if form.is_valid():
+            form.save()
+            allListItems = List.objects.all
+            messages.success(request, ('Item has been edited to list!'))
+            return redirect('homepage')
+    else:
+        allListItems = List.objects.get(pk = list_id)
+        return render(request, "todo_list/edit.html", {'items':allListItems})
