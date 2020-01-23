@@ -17,8 +17,16 @@
             {% for items in all_items %}
                 {% if items.completed %}
                     <tr class="table-secondary">
-                        <td class="striker"><center>{{ items.item }}</center></td>
-                        <td><center>{{ items.completed }}</center></td>
+                        <td class="striker">
+                            <center>
+                                <a href="{% url 'edit' items.id %}"> {{ items.item }}</a>
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                <button type="button" class="btn btn-warning"><a href="{% url 'uncross' items.id %}">Uncross</a></button>
+                            </center>
+                        </td>
                         <td>
                             <center>
                                 <button type="button" class="btn btn-warning"><a href="{% url 'delete' items.id %}">Delete</a></button>
@@ -27,9 +35,21 @@
                     </tr>
                 {% else %}
                     <tr>
-                        <td><center>{{ items.item }}</center</td>
-                        <td><center>{{ items.completed }}</center></td>
-                        <td><center><a href="{% url 'delete' items.id %}">Delete</a></center></td>
+                        <td>
+                            <center>
+                                <a href="{% url 'edit' items.id %}"> {{ items.item }}</a>
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                <button type="button" class="btn btn-warning"><a href="{% url 'cross_off' items.id %}">Cross Off</a></button>
+                            </center>
+                        </td>
+                        <td>
+                            <center>
+                                <button type="button" class="btn btn-warning"><a href="{% url 'delete' items.id %}">Delete</a></button>
+                            </center>
+                        </td>
                     </tr>
                 {% endif %}
             {% endfor %}
