@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14d2975a-2770-41cf-88eb-8efab8b2b1d4" name="Default Changelist" comment="" />
+    <list default="true" id="14d2975a-2770-41cf-88eb-8efab8b2b1d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todo_list/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/templates/todo_list/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/templates/todo_list/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/templates/todo_list/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_list/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_list/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WZDiFUBWa2FMHLFwza6UmC5dIs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,7 +39,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,6 +68,8 @@
       <workItem from="1579348350032" duration="604000" />
       <workItem from="1579438372637" duration="621000" />
       <workItem from="1579529372659" duration="3136000" />
+      <workItem from="1579614061813" duration="7747000" />
+      <workItem from="1579784309202" duration="1361000" />
     </task>
     <servers />
   </component>
